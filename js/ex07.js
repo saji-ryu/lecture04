@@ -24,7 +24,6 @@ function primetest(number) {
 function primenumber() {
   while (number <= 100) {
     if (primetest(number)) {
-      //pn.push(number);
       console.log(number);
     }
     number = number + 1;
